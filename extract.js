@@ -26,7 +26,7 @@ if(!document.getElementById("CONSOLE")){
 } else{
 	document.getElementById("CONSOLE").innerHTML = str;
 }
-document.body.style.backgroundColor = "#99b3ff"
+//document.body.style.backgroundColor = "#99b3ff"
 window.scrollTo(0,document.body.scrollHeight);
 document.getElementById("CONSOLE").focus();
 document.getElementById("CONSOLE").select();
