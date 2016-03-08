@@ -8,4 +8,4 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   console.log("Extracting Data...");
   chrome.tabs.executeScript(null, {"file": "extract.js"});
 });
-(function(){chrome.browserAction.setIcon({path:"extract_schedule" + ".png"});})();
+//(function(){chrome.browserAction.setIcon({path:"extract_schedule" + ".png"});})();
